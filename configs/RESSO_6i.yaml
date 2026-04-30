@@ -1,0 +1,190 @@
+# 點雲配準 Dataset 配置檔
+dataset_name: "RESSO_6i"
+description: "Information of RESSO_6i dataset"
+
+root: "E:\\Dataset\\RESSO\\figure_6i\\"
+
+groundtruth: "ground_truth\\"
+
+raw_data: "transformed_clouds\\"
+
+pairs:
+- source: "0.ply"
+  target: "1.ply"
+  transformation_file: "0_1.txt"
+
+- source: "0.ply"
+  target: "2.ply"
+  transformation_file: "0_2.txt"
+
+- source: "0.ply"
+  target: "3.ply"
+  transformation_file: "0_3.txt"
+
+- source: "0.ply"
+  target: "4.ply"
+  transformation_file: "0_4.txt"
+
+- source: "1.ply"
+  target: "2.ply"
+  transformation_file: "1_2.txt"
+
+- source: "1.ply"
+  target: "3.ply"
+  transformation_file: "1_3.txt"
+
+- source: "1.ply"
+  target: "4.ply"
+  transformation_file: "1_4.txt"
+
+- source: "2.ply"
+  target: "3.ply"
+  transformation_file: "2_3.txt"
+
+- source: "2.ply"
+  target: "4.ply"
+  transformation_file: "2_4.txt"
+
+- source: "3.ply"
+  target: "4.ply"
+  transformation_file: "3_4.txt"
+
+
+# root: "E:\\Dataset\\RESSO\\figure_6i\\"
+
+# groundtruth: "transformation\\"
+
+# raw_data: "ply\\"
+
+# pairs:
+#   - source: "part0.ply"
+#     target: "part1.ply"
+#     transformation_file: "part0_part1.txt"
+
+#   - source: "part0.ply"
+#     target: "part2.ply"
+#     transformation_file: "part0_part2.txt"
+
+#   - source: "part0.ply"
+#     target: "part4.ply"
+#     transformation_file: "part0_part4.txt"
+
+#   - source: "part0.ply"
+#     target: "part5.ply"
+#     transformation_file: "part0_part5.txt"
+
+#   - source: "part0.ply"
+#     target: "part6.ply"
+#     transformation_file: "part0_part6.txt"
+
+#   - source: "part0.ply"
+#     target: "part7.ply"
+#     transformation_file: "part0_part7.txt"
+
+#   - source: "part0.ply"
+#     target: "part8.ply"
+#     transformation_file: "part0_part8.txt"
+
+
+#   - source: "part1.ply"
+#     target: "part2.ply"
+#     transformation_file: "part1_part2.txt"
+
+#   - source: "part1.ply"
+#     target: "part3.ply"
+#     transformation_file: "part1_part3.txt"
+
+#   - source: "part1.ply"
+#     target: "part4.ply"
+#     transformation_file: "part1_part4.txt"
+
+#   - source: "part1.ply"
+#     target: "part5.ply"
+#     transformation_file: "part1_part5.txt"
+
+#   - source: "part1.ply"
+#     target: "part7.ply"
+#     transformation_file: "part1_part7.txt"
+
+#   - source: "part1.ply"
+#     target: "part8.ply"
+#     transformation_file: "part1_part8.txt"
+
+
+#   - source: "part2.ply"
+#     target: "part3.ply"
+#     transformation_file: "part2_part3.txt"
+
+#   - source: "part2.ply"
+#     target: "part4.ply"
+#     transformation_file: "part2_part4.txt"
+
+#   - source: "part2.ply"
+#     target: "part5.ply"
+#     transformation_file: "part2_part5.txt"
+
+#   - source: "part2.ply"
+#     target: "part7.ply"
+#     transformation_file: "part2_part7.txt"
+
+#   - source: "part2.ply"
+#     target: "part8.ply"
+#     transformation_file: "part2_part8.txt"
+
+
+#   - source: "part3.ply"
+#     target: "part4.ply"
+#     transformation_file: "part3_part4.txt"
+
+#   - source: "part3.ply"
+#     target: "part5.ply"
+#     transformation_file: "part3_part5.txt"
+
+#   - source: "part3.ply"
+#     target: "part6.ply"
+#     transformation_file: "part3_part6.txt"
+
+#   - source: "part3.ply"
+#     target: "part8.ply"
+#     transformation_file: "part3_part8.txt"
+
+
+#   - source: "part4.ply"
+#     target: "part5.ply"
+#     transformation_file: "part4_part5.txt"
+
+#   - source: "part4.ply"
+#     target: "part6.ply"
+#     transformation_file: "part4_part6.txt"
+
+#   - source: "part4.ply"
+#     target: "part8.ply"
+#     transformation_file: "part4_part8.txt"
+
+
+#   - source: "part5.ply"
+#     target: "part6.ply"
+#     transformation_file: "part5_part6.txt"
+
+#   - source: "part5.ply"
+#     target: "part7.ply"
+#     transformation_file: "part5_part7.txt"
+
+#   - source: "part5.ply"
+#     target: "part8.ply"
+#     transformation_file: "part5_part8.txt"
+
+
+#   - source: "part6.ply"
+#     target: "part7.ply"
+#     transformation_file: "part6_part7.txt"
+
+#   - source: "part6.ply"
+#     target: "part8.ply"
+#     transformation_file: "part6_part8.txt"
+
+
+
+metadata:
+  point_cloud_format: "ply"
+  units: "meters"

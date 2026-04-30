@@ -1,0 +1,51 @@
+# 點雲配準 Dataset 配置檔
+dataset_name: "Campus"
+description: "Information of Campus dataset"
+
+root: "E:\\6-Campus\\"
+
+groundtruth: "3-GroundTruth\\"
+
+raw_data: "1-RawPointCloud\\"
+
+pairs:
+  - source: "1.ply"
+    target: "2.ply"
+    transformation_file: "1-2\\transformation.txt"
+    
+  - source: "2.ply"
+    target: "3.ply"
+    transformation_file: "2-3\\transformation.txt"
+    
+  - source: "4.ply"
+    target: "3.ply"
+    transformation_file: "4-3\\transformation.txt"
+    
+  - source: "5.ply"
+    target: "4.ply"
+    transformation_file: "5-4\\transformation.txt"
+
+  - source: "6.ply"
+    target: "5.ply"
+    transformation_file: "6-5\\transformation.txt"
+
+  - source: "7.ply"
+    target: "6.ply"
+    transformation_file: "7-6\\transformation.txt"
+
+  - source: "8.ply"
+    target: "6.ply"
+    transformation_file: "8-6\\transformation.txt"
+
+  - source: "9.ply"
+    target: "10.ply"
+    transformation_file: "9-10\\transformation.txt"
+
+  - source: "10.ply"
+    target: "8.ply"
+    transformation_file: "10-8\\transformation.txt"
+
+
+metadata:
+  point_cloud_format: "ply"
+  units: "meters"

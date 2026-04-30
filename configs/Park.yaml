@@ -1,0 +1,137 @@
+dataset_name: "Park"
+description: "Information of Park dataset"
+
+root: "E:\\Dataset\\5-Park\\"
+
+groundtruth: "3-GroundTruth\\"
+
+raw_data: "1-RawPointCloud\\"
+
+pairs:
+  - source: "1.ply"
+    target: "2.ply"
+    transformation_file: "1-2\\transformation.txt"
+    
+  - source: "2.ply"
+    target: "3.ply"
+    transformation_file: "2-3\\transformation.txt"
+    
+  - source: "3.ply"
+    target: "4.ply"
+    transformation_file: "3-4\\transformation.txt"
+    
+  - source: "4.ply"
+    target: "5.ply"
+    transformation_file: "4-5\\transformation.txt"
+
+  - source: "5.ply"
+    target: "6.ply"
+    transformation_file: "5-6\\transformation.txt"
+
+  - source: "6.ply"
+    target: "9.ply"
+    transformation_file: "6-9\\transformation.txt"
+
+  - source: "7.ply"
+    target: "5.ply"
+    transformation_file: "7-5\\transformation.txt"
+
+  - source: "8.ply"
+    target: "6.ply"
+    transformation_file: "8-6\\transformation.txt"
+
+  - source: "9.ply"
+    target: "10.ply"
+    transformation_file: "9-10\\transformation.txt"
+
+  - source: "10.ply"
+    target: "11.ply"
+    transformation_file: "10-11\\transformation.txt"
+
+  - source: "11.ply"
+    target: "12.ply"
+    transformation_file: "11-12\\transformation.txt"
+
+  - source: "12.ply"
+    target: "13.ply"
+    transformation_file: "12-13\\transformation.txt"
+
+  - source: "13.ply"
+    target: "14.ply"
+    transformation_file: "13-14\\transformation.txt"
+
+  - source: "15.ply"
+    target: "14.ply"
+    transformation_file: "15-14\\transformation.txt"
+
+  - source: "16.ply"
+    target: "15.ply"
+    transformation_file: "16-15\\transformation.txt"
+
+  - source: "17.ply"
+    target: "16.ply"
+    transformation_file: "17-16\\transformation.txt"
+
+  - source: "18.ply"
+    target: "7.ply"
+    transformation_file: "18-7\\transformation.txt"
+
+  - source: "19.ply"
+    target: "7.ply"
+    transformation_file: "19-7\\transformation.txt"
+
+  - source: "20.ply"
+    target: "19.ply"
+    transformation_file: "20-19\\transformation.txt"
+
+  - source: "21.ply"
+    target: "20.ply"
+    transformation_file: "21-20\\transformation.txt"
+
+  - source: "22.ply"
+    target: "17.ply"
+    transformation_file: "22-17\\transformation.txt"
+
+  - source: "23.ply"
+    target: "25.ply"
+    transformation_file: "23-25\\transformation.txt"
+
+  - source: "24.ply"
+    target: "25.ply"
+    transformation_file: "24-25\\transformation.txt"
+
+  - source: "25.ply"
+    target: "26.ply"
+    transformation_file: "25-26\\transformation.txt"
+
+  - source: "26.ply"
+    target: "28.ply"
+    transformation_file: "26-28\\transformation.txt"
+
+  - source: "27.ply"
+    target: "30.ply"
+    transformation_file: "27-30\\transformation.txt"
+
+  - source: "28.ply"
+    target: "27.ply"
+    transformation_file: "28-27\\transformation.txt"
+
+  - source: "29.ply"
+    target: "28.ply"
+    transformation_file: "29-28\\transformation.txt"
+
+  - source: "30.ply"
+    target: "31.ply"
+    transformation_file: "30-31\\transformation.txt"
+
+  - source: "31.ply"
+    target: "32.ply"
+    transformation_file: "31-32\\transformation.txt"
+
+  - source: "32.ply"
+    target: "14.ply"
+    transformation_file: "32-14\\transformation.txt"
+
+metadata:
+  point_cloud_format: "ply"
+  units: "meters"

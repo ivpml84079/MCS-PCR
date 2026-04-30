@@ -1,0 +1,30 @@
+# 點雲配準 Dataset 配置檔
+dataset_name: "Boardroom"
+description: "Information of Boardroom dataset"
+
+root: "E:\\Dataset\\Boardroom\\raw_scans_boardroom\\float\\"
+
+groundtruth: "ground_truth\\"
+
+raw_data: "transformed_clouds\\"  #transformed_clouds\\
+
+pairs:
+  - source: "0.ply"
+    target: "1.ply"
+    transformation_file: "0_1.txt"
+
+  - source: "1.ply"
+    target: "2.ply"
+    transformation_file: "1_2.txt"
+
+  - source: "2.ply"
+    target: "3.ply"
+    transformation_file: "2_3.txt"
+
+  - source: "3.ply"
+    target: "4.ply"
+    transformation_file: "3_4.txt"
+
+metadata:
+  point_cloud_format: "ply"
+  units: "meters"

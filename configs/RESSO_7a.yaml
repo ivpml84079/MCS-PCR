@@ -1,0 +1,115 @@
+# 點雲配準 Dataset 配置檔
+dataset_name: "RESSO_7a"
+description: "Information of RESSO_7a dataset"
+
+root: "E:\\Dataset\\RESSO\\figure_7a\\"
+
+groundtruth: "transformation\\"
+
+raw_data: ""
+
+pairs:
+  # ************- source: "part0.ply"
+  #   target: "part1.ply"
+  #   transformation_file: "part0_part1.txt"
+
+  - source: "part0.ply"
+    target: "part10.ply"
+    transformation_file: "part0_part10.txt"
+
+  - source: "part0.ply"
+    target: "part11.ply"
+    transformation_file: "part0_part11.txt"
+
+  - source: "part0.ply"
+    target: "part9.ply"
+    transformation_file: "part0_part9.txt"
+
+  - source: "part1.ply"
+    target: "part10.ply"
+    transformation_file: "part1_part10.txt"
+
+  - source: "part1.ply"
+    target: "part2.ply"
+    transformation_file: "part1_part2.txt"
+
+  - source: "part1.ply"
+    target: "part3.ply"
+    transformation_file: "part1_part3.txt"
+
+  - source: "part1.ply"
+    target: "part9.ply"
+    transformation_file: "part1_part9.txt"
+
+
+  - source: "part10.ply"
+    target: "part11.ply"
+    transformation_file: "part10_part11.txt"
+
+  - source: "part10.ply"
+    target: "part8.ply"
+    transformation_file: "part10_part8.txt"
+
+  - source: "part10.ply"
+    target: "part9.ply"
+    transformation_file: "part10_part9.txt"
+
+
+  # **************- source: "part11.ply"
+  #   target: "part7.ply"
+  #   transformation_file: "part11_part7.txt"
+
+  - source: "part11.ply"
+    target: "part9.ply"
+    transformation_file: "part11_part9.txt"
+
+
+  - source: "part2.ply"
+    target: "part3.ply"
+    transformation_file: "part2_part3.txt"
+
+  - source: "part2.ply"
+    target: "part4.ply"
+    transformation_file: "part2_part4.txt"
+
+  - source: "part2.ply"
+    target: "part5.ply"
+    transformation_file: "part2_part5.txt"
+
+
+  - source: "part3.ply"
+    target: "part4.ply"
+    transformation_file: "part3_part4.txt"
+
+  - source: "part3.ply"
+    target: "part5.ply"
+    transformation_file: "part3_part5.txt"
+
+# *
+  - source: "part3.ply"
+    target: "part6.ply"
+    transformation_file: "part3_part6.txt"
+
+
+  - source: "part4.ply"
+    target: "part5.ply"
+    transformation_file: "part4_part5.txt"
+
+  - source: "part4.ply"
+    target: "part6.ply"
+    transformation_file: "part4_part6.txt"
+
+
+  - source: "part5.ply"
+    target: "part6.ply"
+    transformation_file: "part5_part6.txt"
+
+
+  - source: "part8.ply"
+    target: "part9.ply"
+    transformation_file: "part8_part9.txt"
+
+
+metadata:
+  point_cloud_format: "ply"
+  units: "meters"
