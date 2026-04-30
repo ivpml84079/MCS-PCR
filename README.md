@@ -10,7 +10,6 @@ Structural TLS Point Cloud Registration via Weighted Hough Transform and Maximal
 PCL (>= 1.13.0)
 Eigen3
 yaml-cpp (0.8.0)
-OpenMP
 ```
 
 ## Build
@@ -32,8 +31,8 @@ TopologicalConsistencyRegis.exe <dataset_name> <resolution> <max_line_num> <angl
 
 | Parameter | Description | Example |
 |---|---|---|
-| `<dataset_name>` | Name of the dataset (must match a YAML config in `configs/`) | `Apartment` |
-| `<resolution>` | Voxel resolution in meters | `0.025` |
+| `<dataset_name>` | Name of the dataset (must match a YAML config in `configs/`) | `Park` |
+| `<resolution>` | Voxel resolution in meters | `0.1` |
 | `<max_line_num>` | Maximum number of lines to detect per cloud | `20` |
 | `<angle_tolerance>` | Tolerance for matching line angles (degrees) | `3.0` |
 | `<fac_epsilon>` | Distance tolerance factor (multiplied by resolution) | `2.0` |
