@@ -1,0 +1,14 @@
+.claude/
+build/
+datasets/5-Park/
+datasets/Apartment/
+analyze_results.py
+batch_run.py
+Dockerfile_
+Dockerfile_v1
+PCL1.13.0_release_x64.props
+TopologicalConsistencyRegis.vcxproj
+TopologicalConsistencyRegis.vcxproj.filters
+TopologicalConsistencyRegis.vcxproj.user
+yaml0.8.0_release_x64
+yaml-cpp.dll
