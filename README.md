@@ -1,5 +1,5 @@
 # MCS-PCR
-Structural TLS Point Cloud Registration via Weighted Hough Transform and Maximal Congruent Subgraph Pairs
+Structural TLS Point Cloud Registration via Weighted Hough Transform and Maximal Congruent Subgraph Pairs by Kuo-Liang Chung and Ting-Hsu Chuang
 
 ## Dependencies
 
@@ -12,20 +12,6 @@ Structural TLS Point Cloud Registration via Weighted Hough Transform and Maximal
 A C++17-compatible compiler is required.
 
 ## Build
-
-### Native Build
-
-```bash
-git clone https://github.com/ivpml84079/MCS-PCR.git
-cd MCS-PCR
-cmake -S . -B build
-cmake --build build -j$(nproc)
-```
-
-This produces two executables:
-
-- `example` -- Register a single pair of point clouds.
-- `test_dataset` -- Register all pairs defined in a YAML config file.
 
 ### Docker Build
 
@@ -40,6 +26,20 @@ docker run -it -v "$(PWD):/root/mcs_pcr" -w /root/mcs_pcr --name MCS-PCR mcs_pcr
 cmake -S . -B build
 cmake --build build -j$(nproc)
 ```
+
+### Native Build
+
+```bash
+git clone https://github.com/ivpml84079/MCS-PCR.git
+cd MCS-PCR
+cmake -S . -B build
+cmake --build build -j$(nproc)
+```
+
+This produces two executables:
+
+- `example` -- Register a single pair of point clouds.
+- `test_dataset` -- Register all pairs defined in a YAML config file.
 
 ## Usage
 
