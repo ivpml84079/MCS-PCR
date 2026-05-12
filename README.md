@@ -7,7 +7,7 @@ Structural TLS Point Cloud Registration via Weighted Hough Transform and Maximal
 |---------|---------|---------|
 | [PCL](https://pointclouds.org/) | >= 1.13 | Point cloud I/O, voxel filtering, KD-tree, octree |
 | [Eigen3](https://eigen.tuxfamily.org/) | >= 3.4 | Linear algebra |
-| [yaml-cpp](https://github.com/jbeder/yaml-cpp) | >=0.8.0 | Dataset configuration parsing |
+| [yaml-cpp](https://github.com/jbeder/yaml-cpp) | >= 0.8.0 | Dataset configuration parsing |
 
 A C++17-compatible compiler is required.
 
