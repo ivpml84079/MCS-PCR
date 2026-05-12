@@ -46,25 +46,25 @@ This produces two executables:
 ### Single Pair Registration
 
 ```bash
-./examples/example <source.ply> <target.ply> <ground_truth.txt> <resolution>
+./build/example <source.ply> <target.ply> <ground_truth.txt> <resolution>
 ```
 
 Example with the provided sample data:
 
 ```bash
-./examples/example datasets/example/source.ply datasets/example/target.ply datasets/example/ground_truth.txt 0.1
+./build/example datasets/example/source.ply datasets/example/target.ply datasets/example/ground_truth.txt 0.1
 ```
 
 ### Batch Dataset Evaluation
 
 ```bash
-./examples/test_dataset <dataset_name> <resolution> <rot_threshold> <trans_threshold>
+./build/test_dataset <dataset_name> <resolution> <rot_threshold> <trans_threshold>
 ```
 
 Example:
 
 ```bash
-./examples/test_dataset Apartment 0.025 5 1
+./build/test_dataset Apartment 0.025 5 1
 ```
 
 Results are saved to `reg_results/<dataset_name>/`:
