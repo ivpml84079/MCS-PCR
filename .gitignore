@@ -12,3 +12,6 @@ TopologicalConsistencyRegis.vcxproj.filters
 TopologicalConsistencyRegis.vcxproj.user
 yaml0.8.0_release_x64
 yaml-cpp.dll
+.gitignore
+.gitattributes
+Makefile
