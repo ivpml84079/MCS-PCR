@@ -21,7 +21,7 @@ A Dockerfile is provided that installs all dependencies from source on Ubuntu 22
 git clone https://github.com/ivpml84079/MCS-PCR.git
 cd MCS-PCR
 docker build -t mcs_pcr .
-docker run -it -v "$(PWD):/root/mcs_pcr" -w /root/mcs_pcr --name MCS-PCR mcs_pcr bash
+docker run -it -v "$(pwd):/root/mcs_pcr" -w /root/mcs_pcr --name MCS-PCR mcs_pcr bash
 # Inside the container
 cmake -S . -B build
 cmake --build build -j$(nproc)
