@@ -64,7 +64,7 @@ Example with the provided sample data:
 Example:
 
 ```bash
-./build/test_dataset Apartment 0.1 5 2
+./build/test_dataset Park 0.1 5 2
 ```
 
 Results are saved to `reg_results/<dataset_name>/`:
