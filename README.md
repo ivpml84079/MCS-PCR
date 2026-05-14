@@ -52,7 +52,7 @@ This produces two executables:
 Example with the provided sample data:
 
 ```bash
-./build/example datasets/example/source.ply datasets/example/target.ply datasets/example/ground_truth.txt 0.1
+./build/example datasets/example/source.ply datasets/example/target.ply datasets/example/ground_truth.txt 0.05
 ```
 
 ### Batch Dataset Evaluation
@@ -64,7 +64,7 @@ Example with the provided sample data:
 Example:
 
 ```bash
-./build/test_dataset Apartment 0.025 5 1
+./build/test_dataset Apartment 0.1 5 2
 ```
 
 Results are saved to `reg_results/<dataset_name>/`:
